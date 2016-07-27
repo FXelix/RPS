@@ -38,9 +38,7 @@ def game():
     count_pc = 0
     count_player = 0
 
-    while rounding < 4:
-        if rounding == 3:
-            break
+    while rounding < 3:
         print("What is your guess?")
         choice = input("> ")
         choice = choice.replace(" ", "")  # removes accidently pressed spaces
